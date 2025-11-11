@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0001 /* PriceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0001 /* PriceTrackerApp.swift */; };
+		AA0002 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0002 /* Stock.swift */; };
+		AA0003 /* StockFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0003 /* StockFeedViewModel.swift */; };
+		AA0004 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0004 /* FeedView.swift */; };
+		AA0005 /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0005 /* StockDetailView.swift */; };
+		AA0006 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0006 /* WebSocketService.swift */; };
+		AA0007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0007 /* Assets.xcassets */; };
+		AA0008 /* StockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0008 /* StockTests.swift */; };
+		AA0009 /* PriceGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0009 /* PriceGeneratorTests.swift */; };
+		AA0010 /* StockFeedViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0010 /* StockFeedViewModelTests.swift */; };
+		AA0011 /* PriceTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0011 /* PriceTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = HH0001;
+			remoteInfo = PriceTracker;
+		};
+		CC0002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = HH0001;
+			remoteInfo = PriceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F098A82EC29DDB0038C02D /* PriceTracker.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = PriceTracker.xctestplan; sourceTree = "<group>"; };
+		BB0001 /* PriceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTrackerApp.swift; sourceTree = "<group>"; };
+		BB0002 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		BB0003 /* StockFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFeedViewModel.swift; sourceTree = "<group>"; };
+		BB0004 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		BB0005 /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		BB0006 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
+		BB0007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0008 /* StockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTests.swift; sourceTree = "<group>"; };
+		BB0009 /* PriceGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceGeneratorTests.swift; sourceTree = "<group>"; };
+		BB0010 /* StockFeedViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFeedViewModelTests.swift; sourceTree = "<group>"; };
+		BB0011 /* PriceTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTrackerUITests.swift; sourceTree = "<group>"; };
+		EE0001 /* PriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0002 /* PriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0003 /* PriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GG0001 = {
+			isa = PBXGroup;
+			children = (
+				42F098A82EC29DDB0038C02D /* PriceTracker.xctestplan */,
+				GG0002 /* PriceTrackerApp */,
+				GG0003 /* PriceTrackerAppTests */,
+				GG0004 /* PriceTrackerAppUITests */,
+				GG0005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GG0002 /* PriceTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB0001 /* PriceTrackerApp.swift */,
+				GG0006 /* Models */,
+				GG0007 /* ViewModels */,
+				GG0008 /* Views */,
+				GG0009 /* Services */,
+				BB0007 /* Assets.xcassets */,
+			);
+			path = PriceTrackerApp;
+			sourceTree = "<group>";
+		};
+		GG0003 /* PriceTrackerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0008 /* StockTests.swift */,
+				BB0009 /* PriceGeneratorTests.swift */,
+				BB0010 /* StockFeedViewModelTests.swift */,
+			);
+			path = PriceTrackerAppTests;
+			sourceTree = "<group>";
+		};
+		GG0004 /* PriceTrackerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0011 /* PriceTrackerUITests.swift */,
+			);
+			path = PriceTrackerAppUITests;
+			sourceTree = "<group>";
+		};
+		GG0005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0001 /* PriceTracker.app */,
+				EE0002 /* PriceTrackerTests.xctest */,
+				EE0003 /* PriceTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GG0006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0002 /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GG0007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB0003 /* StockFeedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		GG0008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0004 /* FeedView.swift */,
+				BB0005 /* StockDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		GG0009 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB0006 /* WebSocketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		HH0001 /* PriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = II0001 /* Build configuration list for PBXNativeTarget "PriceTracker" */;
+			buildPhases = (
+				JJ0001 /* Sources */,
+				FF0001 /* Frameworks */,
+				KK0001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceTracker;
+			productName = PriceTracker;
+			productReference = EE0001 /* PriceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		HH0002 /* PriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = II0002 /* Build configuration list for PBXNativeTarget "PriceTrackerTests" */;
+			buildPhases = (
+				JJ0002 /* Sources */,
+				FF0002 /* Frameworks */,
+				KK0002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				LL0001 /* PBXTargetDependency */,
+			);
+			name = PriceTrackerTests;
+			productName = PriceTrackerTests;
+			productReference = EE0002 /* PriceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		HH0003 /* PriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = II0003 /* Build configuration list for PBXNativeTarget "PriceTrackerUITests" */;
+			buildPhases = (
+				JJ0003 /* Sources */,
+				FF0003 /* Frameworks */,
+				KK0003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				LL0002 /* PBXTargetDependency */,
+			);
+			name = PriceTrackerUITests;
+			productName = PriceTrackerUITests;
+			productReference = EE0003 /* PriceTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					HH0001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					HH0002 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = HH0001;
+					};
+					HH0003 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = HH0001;
+					};
+				};
+			};
+			buildConfigurationList = MM0001 /* Build configuration list for PBXProject "PriceTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GG0001;
+			productRefGroup = GG0005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				HH0001 /* PriceTracker */,
+				HH0002 /* PriceTrackerTests */,
+				HH0003 /* PriceTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		KK0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0007 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		KK0002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		KK0003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		JJ0001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0001 /* PriceTrackerApp.swift in Sources */,
+				AA0002 /* Stock.swift in Sources */,
+				AA0003 /* StockFeedViewModel.swift in Sources */,
+				AA0004 /* FeedView.swift in Sources */,
+				AA0005 /* StockDetailView.swift in Sources */,
+				AA0006 /* WebSocketService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		JJ0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0008 /* StockTests.swift in Sources */,
+				AA0009 /* PriceGeneratorTests.swift in Sources */,
+				AA0010 /* StockFeedViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		JJ0003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0011 /* PriceTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		LL0001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = HH0001 /* PriceTracker */;
+			targetProxy = CC0001 /* PBXContainerItemProxy */;
+		};
+		LL0002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = HH0001 /* PriceTracker */;
+			targetProxy = CC0002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		NN0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		NN0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		NN0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceTrackerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Price Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		NN0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceTrackerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Price Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		NN0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceTracker";
+			};
+			name = Debug;
+		};
+		NN0006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceTracker";
+			};
+			name = Release;
+		};
+		NN0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceTracker;
+			};
+			name = Debug;
+		};
+		NN0008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74JH5Z8YDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pricetracker.PriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		II0001 /* Build configuration list for PBXNativeTarget "PriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				NN0003 /* Debug */,
+				NN0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		II0002 /* Build configuration list for PBXNativeTarget "PriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				NN0005 /* Debug */,
+				NN0006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		II0003 /* Build configuration list for PBXNativeTarget "PriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				NN0007 /* Debug */,
+				NN0008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		MM0001 /* Build configuration list for PBXProject "PriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				NN0001 /* Debug */,
+				NN0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0001 /* Project object */;
+}

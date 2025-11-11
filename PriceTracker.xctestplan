@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "9AB7A401-ECC6-4392-8F88-20939C376962",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PriceTracker.xcodeproj",
+      "identifier" : "HH0001",
+      "name" : "PriceTracker"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PriceTracker.xcodeproj",
+        "identifier" : "HH0002",
+        "name" : "PriceTrackerTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PriceTracker.xcodeproj",
+        "identifier" : "HH0003",
+        "name" : "PriceTrackerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
